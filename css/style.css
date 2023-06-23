@@ -1,4 +1,29 @@
 p{
     background: #09f;
     color: #fff;
+   
+}
+ul.nav{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden; 
+    list-style: none;
+}
+ul.nav li{
+    float: left;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+ul.nav li a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    line-height: 30px;
+    background: #09f;
+    
+}
+ul.nav li a:hover{
+    background: #900;
 }
